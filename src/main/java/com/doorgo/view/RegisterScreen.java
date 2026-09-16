@@ -16,13 +16,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
 
-/**
- * RegisterScreen - form pendaftaran akun baru.
- * Setelah berhasil register, otomatis kembali ke LoginScreen.
- *
- * MULTITHREADING: sama seperti LoginScreen, proses registrasi dibungkus
- * Task agar berjalan di background thread dan tidak memblokir tampilan.
- */
+
 public class RegisterScreen extends Screen {
 
     public RegisterScreen(Stage stage) {
