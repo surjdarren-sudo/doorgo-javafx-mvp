@@ -8,7 +8,7 @@ public class Fitur {
 
     private final String judul;
     private final String deskripsi;
-    private final String emoji; // dipakai sebagai ikon sederhana (MVP, tanpa aset gambar tambahan)
+    private final String emoji; 
     private final String warnaHex;
 
     public Fitur(String judul, String deskripsi, String emoji, String warnaHex) {
