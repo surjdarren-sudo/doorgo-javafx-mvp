@@ -36,8 +36,7 @@ public class User {
         return saldo;
     }
 
-    // Setter dengan validasi sederhana -> ini inti dari encapsulation:
-    // saldo tidak bisa diubah jadi negatif dari luar class.
+    
     public void tambahSaldo(double jumlah) {
         if (jumlah > 0) {
             this.saldo += jumlah;
