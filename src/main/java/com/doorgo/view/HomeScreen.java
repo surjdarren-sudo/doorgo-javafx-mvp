@@ -19,12 +19,7 @@ import javafx.stage.Stage;
 
 import java.util.List;
 
-/**
- * HomeScreen - halaman utama setelah login.
- * Menampilkan sapaan pelanggan, saldo, dan daftar produk/fitur DoorGo
- * (Live Tracking, Contactless Delivery, ETA Akurat, Chat/Telpon Kurir,
- * Feedback & Tip) dalam bentuk kartu, sesuai fitur pada Laporan ISAD.
- */
+
 public class HomeScreen extends Screen {
 
     private final User user;
