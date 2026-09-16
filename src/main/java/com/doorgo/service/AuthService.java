@@ -15,9 +15,7 @@ public class AuthService {
         REGISTERED_USERS.put("pisang", new User("pisang", "Pelanggan DoorGo", "goreng123", 219000));
     }
 
-    /**
-     * @return object User jika username & password cocok, atau null jika gagal.
-     */
+    
     public static User login(String username, String password) {
         User user = REGISTERED_USERS.get(username);
         if (user != null && user.getPassword().equals(password)) {
@@ -26,10 +24,7 @@ public class AuthService {
         return null;
     }
 
-    /**
-     * Mendaftarkan akun baru.
-     * @return null jika berhasil, atau pesan error jika gagal.
-     */
+  
     public static String register(String username, String namaLengkap, String password) {
         if (username.isBlank() || namaLengkap.isBlank() || password.isBlank()) {
             return "Semua kolom wajib diisi.";
