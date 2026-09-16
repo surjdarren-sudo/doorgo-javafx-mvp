@@ -5,13 +5,7 @@ import com.doorgo.model.User;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * AuthService - "penjaga pintu" login & registrasi.
 
- * MVP: data user disimpan sementara di memori (HashMap), belum pakai database.
- * Di Bab 11 modul OOP (JDBC), penyimpanan ini yang nantinya diganti menjadi
- * tabel `Customer` di database lewat PreparedStatement / DAO pattern.
- */
 public class AuthService {
 
     private static final Map<String, User> REGISTERED_USERS = new HashMap<>();
